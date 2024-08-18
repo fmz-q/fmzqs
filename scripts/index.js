@@ -179,7 +179,7 @@ function updatePage(htmlContent, pageTitle) {
 
 function domains() {
     updatePage(
-        "<a href='https://fmz-q.github.io/fmzq/' target='_blank' style='color: white;'>https://fmz-q.github.io/fmzq</a>, <a href='' target='_blank' style='color: white;'>doxe.rs</a>, <a href='' target='_blank' style='color: white;'>swatte.rs</a>",
+        "<a href='https://fmz-q.github.io/fmzq/' target='_blank' style='color: white;'>https://fmz-q.github.io/fmzq</a>",
         "projects"
     );
 }
@@ -203,7 +203,7 @@ function discord() {
 
 function getRandomSentence() {
     const sentences = [
-        "@ <a href='' target='_blank' style='color: white;'>fail</a>, a collective"
+        "@ <a href='' target='_blank' style='color: white;'>fmzq</a>, a collective"
     ];
     const randomIndex = Math.floor(Math.random() * sentences.length);
     return sentences[randomIndex];
