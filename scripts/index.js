@@ -49,8 +49,8 @@ function startPage() {
 
     var fadeInInterval = setInterval(function () {
         song.volume += 0.1;
-        if (song.volume >= 0.7) {
-            song.volume = 0.7;
+        if (song.volume >= 1) {
+            song.volume = 1;
             clearInterval(fadeInInterval);
         }
     }, 350);
