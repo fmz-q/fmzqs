@@ -102,7 +102,7 @@ function lsd() {
 
 function rainku() {
     memberCall(
-        "assets/rainku_icon.png",
+        "assets/rainku_icon.png", 
         "<a href='https://snapchat.com/@elliot_bajskorv' target='_blank' style='color: white;'>snapchat</a>, <a href='xeqlti' target='_blank' style='color: white;'>instagram</a>, <a href='https://t.me/f_mzq' target='_blank' style='color: white;'>telegram</a>",
         "rainku"
     );
@@ -210,36 +210,9 @@ function getRandomSentence() {
 }
 
 var gifs = [
-    "alakazam.gif",
-    "arceus.gif",
-    "articuno.gif",
-    "charizard.gif",
-    "darkrai.gif",
-    "dialga.gif",
-    "dragonite.gif",
-    "entei.gif",
-    "garchomp.gif",
-    "gardevoir.gif",
-    "genesect.gif",
-    "gengar.gif",
-    "giratina.gif",
-    "groudon.gif",
-    "ho-oh.gif",
-    "kyogre.gif",
-    "kyurem.gif",
-    "lugia.gif",
+
     "mewtwo.gif",
-    "moltres.gif",
-    "palkia.gif",
-    "raikou.gif",
-    "rayquaza.gif",
-    "reshiram.gif",
-    "scizor.gif",
-    "suicune.gif",
-    "tyranitar.gif",
-    "venusaur.gif",
-    "zapdos.gif",
-    "zekrom.gif"
+
     ];
 
 function setRandomGif() {
