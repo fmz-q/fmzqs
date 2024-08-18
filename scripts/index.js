@@ -39,7 +39,7 @@ function startPage() {
                 mainButtons.style.opacity = 1;
             });
 
-            enterButton.style.display = "none";
+            enterButton.style.display = "one";
         }, 500);
     }, 1000);
     
@@ -124,7 +124,7 @@ function memberCall(pfpSrc, textContent, user) {
     if (transitionActive) return;
     transitionActive = true;
 
-    if (current_page === "") {
+    if (current_page === "fmzq") {
         const displayText = document.querySelector(".display-text");
         const pfpImage = document.getElementById("pfp-image");
 
@@ -145,7 +145,7 @@ function memberCall(pfpSrc, textContent, user) {
 
         displayText.innerHTML = textContent;
         pfpImage.src = pfpSrc;
-        randomGif.style.display = "none";
+        randomGif.style.display = "one";
 
         transitionActive = false;
     }

@@ -262,7 +262,7 @@ body, html {
 }
 
 .buttons-container button:hover[data-gif="palkia.gif"] {
-    color: rgba(220, 164, 235, 1);
+    color: rgb(221, 160, 238);
 }
 
 .buttons-container button:hover[data-gif="raikou.gif"] {
